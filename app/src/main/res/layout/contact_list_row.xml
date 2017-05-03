@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="28sp"
+                android:id="@+id/id_contact_name"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textSize="18sp"
+                android:id="@+id/id_contact_phone"/>
+        </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="48dp"
+                android:id="@+id/id_call"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/ic_call"
+                />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:id="@+id/id_msg"
+                android:layout_marginTop="16dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_message"
+                android:layout_marginLeft="12dp"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>
